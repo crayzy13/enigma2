@@ -209,7 +209,7 @@ self.selectKey("LEFT")
 self.selectKey("RIGHT")
 			</code>
 		</step>
-		<step id="channels">
+		<!--<step id="channels">
 			<condition>
 from Components.NimManager import nimmanager
 self.condition = nimmanager.somethingConnected() and config.misc.installwizard.hasnetwork.value and config.misc.installwizard.ipkgloaded.value
@@ -244,7 +244,7 @@ self.condition = config.misc.installwizard.hasnetwork.value and config.misc.inst
 self.clearSelectedKeys()
 self.selectKey("OK")
 			</code>
-		</step>
+		</step>-->
 		<step id="end" laststep="true">
 			<text value="Thank you for using the wizard. Your receiver is now ready for use.\nPress OK to start using your receiver." />
 			<code>
